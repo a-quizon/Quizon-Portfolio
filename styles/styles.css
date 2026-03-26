@@ -251,6 +251,10 @@ main{
   padding: 15px;
 }
 
+.task-content a{
+    text-decoration: none;
+}
+
 .task-title {
   font-size: 16px;
   color: #ffffff;
@@ -269,6 +273,12 @@ main{
     background-color: #111111;
     padding: 10px 20px;
     border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.email-container:hover{
+    background-color: #0a0d1d;
 }
 
 .email-container p:first-of-type{
