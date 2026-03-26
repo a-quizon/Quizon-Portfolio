@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Las Task 6 Using Display Property</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        form input{
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        p{
+            width: 200px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .google{
+            width: 500px;
+            margin: 0 auto;
+        }
+        .google img{
+            display: block;
+            width: 200px;
+            margin: 10px auto;
+        }
+
+        .google input{
+            display: block;
+            padding: 10px 12px;
+            width: 300px;
+            border-radius: 100px;
+            border: none;
+            box-shadow: 0px 1px 5px rgb(197, 197, 197);
+            margin: 0 auto;
+        }
+
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .signup{
+            width: fit-content;
+        }
+        .signup input[type="text"]{
+            display: inline-block;
+            padding: 10px 12px;
+            border-radius: 5px;
+            border: solid 1px gray;
+            width: 150px;
+            margin-bottom: 5px;
+        }
+
+        .signup input[type="email"]{
+            display: block;
+            padding: 10px 12px;
+            border-radius: 5px;
+            border: solid 1px gray;
+            width: 100%;
+            margin-bottom: 5px;
+        }
+        .signup button{
+            display: block;
+            width: 100%;
+            padding: 12px 14px;
+            border: none;
+            background-color: rgb(54, 54, 241);
+            font-size: medium;
+            font-weight: 600;
+            color: #fcfcfc;
+            border-radius: 10px;
+        }
+
+        .uber{
+            width: fit-content;
+        }
+        legend{
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+        .uber input[type="text"]{
+            display: block;
+            padding: 10px 12px;
+            border: none;
+            background-color: rgb(231, 231, 231);
+            width: 300px;
+            margin-bottom: 5px;
+            color: rgb(48, 48, 48);
+        }
+
+        .uber button{
+            margin-top: 20px;
+            margin-right: 10px;
+        }
+
+        .uber .btn1{
+            border: none;
+            background-color: black;
+            color: white;
+            padding: 15px 20px;
+        }
+        .uber .btn2{
+            border: none;
+            background-color: rgb(216, 216, 216);
+            color: black;
+            padding: 15px 20px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Create 2 text boxes and put them on separate lines</legend>
+            <input type="text" placeholder="Name" >
+            <input type="email" placeholder="Email">
+        </fieldset>
+    </form>
+
+    <br>
+    <hr>
+    <br>
+
+    <p>Thanks for chatting with our customer support. Would you like to take our quick survey?</p>
+    <button>Yes</button>
+    <button>No</button>
+
+    <br>
+    <hr>
+    <br>
+
+    <div class="google">
+        <img src="img/google-logo.png" alt="Google Logo">
+        <input type="text" placeholder="Search Google or type a URL">
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <h1>Challenge Exercise</h1>
+    <form action="" class="signup">
+        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="First Name">
+        <input type="email" placeholder="Email">
+        <button>Sign Up</button>
+    </form>
+
+    <br>
+
+    <form action="" class="uber">
+        <legend>Request a ride now</legend>
+        <input type="text" placeholder="Enter pickup location">
+        <input type="text" placeholder="Enter destination">
+        <button class="btn1">Request Now</button>
+        <button class="btn2">Schedule for later</button>
+    </form>
+</body>
+</html>

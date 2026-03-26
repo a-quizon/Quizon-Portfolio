@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midterm Task 4 - Tables and HTML Forms</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Request for Proposal</legend>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="name">Your Name:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="name" id="name">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="email">Email:</label>
+                        </td>
+                        <td>
+                            <input type="email" name="email" id="email">
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <label for="username">Username:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="username" id="username">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="password">Password:</label>
+                        </td>
+                        <td>
+                            <input type="password" name="password" id="password">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="business">Your Business:</label>
+                        </td>
+                        <td>
+                            <textarea name="business" id="business" rows="10" cols="30">Briefly describe your business in this space</textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="companySize">Company size:</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="companySize" id="r1">
+                            <label>Less than 10</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="radio" name="companySize" id="r2">
+                            <label>11 to 50</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="radio" name="companySize" id="r3">
+                            <label>50 to 200</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="radio" name="companySize" id="r4">
+                            <label>Over 200</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="service">Service:</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="brandIdentity" id="brandIdentity">
+                            <label for="brandIdentity">Brand Identity</label>
+                            <input type="checkbox" name="newWeb" id="newWeb">
+                            <label for="newWeb">New Website</label>
+                            <input type="checkbox" name="webRedesign" id="webRedesign">
+                            <label for="webRedesign">Web Redesigner</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="timeline">Timeline:</label>
+                        </td>
+                        <td>
+                            <select name="timeline" id="timeline">
+                                <option value="opt1">Immediately</option>
+                                <option value="opt2">1-2 weeks</option>
+                                <option value="opt3">3-6 weeks</option>
+                                <option value="opt4">7 weeks - 2 months</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td>
+                            <button type="submit">Send to dev/design</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>

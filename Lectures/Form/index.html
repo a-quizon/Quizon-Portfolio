@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Registration Form</title>
+</head>
+<body>
+    <form action="GET">
+        <fieldset>
+            <legend>INFORMATION FORM</legend>
+            <label for="fname">First Name: </label>
+            <input type="text" size="15" placeholder="Enter your first name">
+            <br>
+            <label for="lname">Last Name: </label>
+            <input type="text" size="15" placeholder="Enter your last name">
+            <br>
+            <label for="password">Password: </label>
+            <input type="password" placeholder="Please enter your password">
+            <br>
+            <label for="bday">Birthdate: </label>
+            <input type="date">
+            <br>
+            <label for="age">Age: </label>
+            <input type="number" placeholder="Enter your age">
+            <br><br>
+            <label for="volume">Volume</label>
+            <input type="range">
+            <br><br>
+            Gender:
+            <br>
+            <input type="radio" name="gender" value="Male">
+            <label for="gender">Male</label>
+            <br>
+            <input type="radio" name="gender" value="Female">
+            <label for="gender">Female</label>
+            <br><br>
+            Favorite Food:
+            <br>
+            <input type="checkbox" name="Adobo"> 
+            <label for="Adobo">Adobo</label>
+            <br>
+            <input type="checkbox" name="Sinigang"> 
+            <label for="Sinigang">Sinigang</label>
+            <br>
+            <input type="checkbox" name="Kaldareta"> 
+            <label for="Kaldareta">Kaldareta</label>
+            <br><br>
+            <label for="">PE Activities</label>
+            <select name="" id="">
+                <option value="">&nbsp;</option>
+                <optgroup label="Isometric Exercises">
+                    <option value="Stand Still">Stand Still</option>
+                    <option value="Active Beast">Active Beast</option>
+                </optgroup>
+
+                <option value="Gymnastics">Gymnastics</option>
+                <option value="Swimming">Swimming</option>
+                <option value="Team and Individual Sports">Team and Individual Sports</option>
+            </select>
+
+            <br><br>
+
+            <label for="comments">Comments and Suggestions</label>
+            <br>
+            <textarea name="comments" id="comments" placeholder="Type your comment here..." rows="4" cols="50"></textarea>
+            <br><br>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            
+        </fieldset>
+    </form>
+</body>
+</html>
