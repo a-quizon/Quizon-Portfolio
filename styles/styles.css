@@ -77,6 +77,11 @@ h2{
     padding: 0 0.5rem;
     border-radius: 0.5rem;
     text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.header-buttons a:hover{
+    transform: perspective(500px) translateZ(20px);
 }
 
 .cv{
@@ -184,11 +189,16 @@ main{
     text-decoration: none;
     color: #ffffff;
     font-size: 12px;
+    transition: opacity 0.3s ease;
 }
 .view-all img{
     margin-left: 5px;
     width: 14px;
     height: 14px;
+}
+
+.view-all:hover{
+    opacity: 0.5;
 }
 
 .techstack-container{
@@ -253,6 +263,11 @@ main{
 
 .task-content a{
     text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.task-content a:hover{
+    opacity: 0.5;
 }
 
 .task-title {
@@ -274,7 +289,7 @@ main{
     padding: 10px 20px;
     border-radius: 10px;
     cursor: pointer;
-    transition: all 0.3s;
+    transition: all 0.3s ease;
 }
 
 .email-container:hover{
@@ -320,6 +335,11 @@ main{
     background-color: #111111;
     align-items: center;
     justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.logo-container:hover{
+    background-color: #0a0d1d;
 }
 
 .logo-container img{
