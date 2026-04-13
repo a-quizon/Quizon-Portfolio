@@ -265,6 +265,13 @@ main{
     text-decoration: none;
 }
 
+.term-label{
+    width: max-content;
+    padding: 2px 5px;
+    border-radius: 3px;
+    background-color: #464646;
+}
+
 .task-title {
   font-size: 16px;
   color: #ffffff;
