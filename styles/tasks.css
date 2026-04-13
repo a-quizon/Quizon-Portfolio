@@ -42,6 +42,19 @@ header img{
 }
 
 main{
+    display: flex;
+    flex-direction: column;
+}
+
+main:first-of-type h1{
+    margin-top: 20px;
+}
+
+.finals-section{
+    margin-bottom: 20px;
+}
+
+.midterm-section, .finals-section{
     margin-top: 20px;
     display: grid;
     gap: 10px;
@@ -140,6 +153,14 @@ main{
     background: rgba(255, 255, 255, 0.2);
 }
 
+hr{
+    border: none;
+    height: 1px;
+    background-color: #737373;
+    margin:  20px 0;
+}
+
+
 footer{
     margin-top: 20px;
 }
@@ -161,7 +182,7 @@ footer p a{
         margin: 0 auto;
     }
 
-    main{
+    .midterm-section, .finals-section{
         grid-template-columns: 1fr 1fr;
     }
 
