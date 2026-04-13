@@ -71,6 +71,13 @@ main{
     display: inline-block;
 }
 
+hr{
+    border: none;
+    height: 1px;
+    background-color: #737373;
+    margin:  20px 0;
+}
+
 footer{
     margin-top: 20px;
 }

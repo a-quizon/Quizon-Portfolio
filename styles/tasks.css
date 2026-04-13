@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -175,6 +176,27 @@ footer p a{
     color: #a3a3a3;
 }
 
+.to-top{
+    background-color: #f8f8f8;
+    text-decoration: none;
+    color: #111111;
+    font-size: 14px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 150px;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    box-shadow: 0 2px 7px rgb(194, 194, 194);
+}
+
+.to-top img{
+    width: 15px;
+}
 
 @media (min-width: 768px) {
     .wrapper{
@@ -192,5 +214,16 @@ footer p a{
 
     footer p{
         font-size: 16px;
+    }
+
+    .to-top{
+        font-size: 20px;
+        bottom: 30px;
+        right: 30px;
+        width: 180px;
+    }
+
+    .to-top img{
+        width: 20px;
     }
 }
