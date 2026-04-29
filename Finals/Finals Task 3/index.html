@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finals Task 3</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .box-area {
+      background-color: #eeeeee;
+      padding: 18px;
+    }
+
+    .green-box,
+    .violet-box,
+    .salmon-box,
+    .teal-box,
+    .blue-box,
+    .dark-box {
+      color: white;
+      padding: 22px;
+      border: 2px solid white;
+    }
+
+    .green-box {
+      background-color: seagreen;
+    }
+
+    .violet-box {
+      background-color: darkviolet;
+      border-color: orange;
+    }
+
+    .salmon-box {
+      background-color: salmon;
+    }
+
+    .teal-box {
+      background-color: cadetblue;
+    }
+
+    .blue-box {
+      background-color: royalblue;
+    }
+
+    .dark-box {
+      background-color: darkslategray;
+    }
+
+    .card-section {
+      background-color: #eef8ff;
+    }
+
+    .my-card {
+      background-color: white;
+      padding: 20px;
+      min-height: 260px;
+      border-radius: 8px;
+      box-shadow: 5px 5px 15px gray;
+    }
+
+    .my-card h2 {
+      color: #3b1ca8;
+      font-weight: bold;
+    }
+
+    .my-card p {
+      font-size: 14px;
+      text-align: justify;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container my-4">
+
+    <h3 class="text-center mb-4">Finals Task 3</h3>
+
+    <h5>Layout 1</h5>
+    <div class="box-area mb-4">
+      <div class="row">
+        <div class="col-md-6 col-12 green-box">50% desktop, 100% mobile</div>
+        <div class="col-md-6 col-12 green-box">50% desktop, 100% mobile</div>
+      </div>
+    </div>
+
+    <div class="box-area mb-5">
+      <div class="row">
+        <div class="col-md-6 col-12 violet-box">50% desktop, 100% mobile</div>
+        <div class="col-md-6 col-12 violet-box">50% desktop, 100% mobile</div>
+      </div>
+    </div>
+
+    <h5>Layout 2</h5>
+    <div class="box-area mb-4">
+      <div class="row">
+        <div class="col-md-6 col-12 salmon-box">Column 1</div>
+        <div class="col-md-3 col-12 salmon-box">Column 2</div>
+        <div class="col-md-3 col-12 salmon-box">Column 3</div>
+      </div>
+    </div>
+
+    <div class="box-area mb-5">
+      <div class="row">
+        <div class="col-12 teal-box">Column 1</div>
+        <div class="col-12 teal-box">Column 2</div>
+        <div class="col-12 teal-box">Column 3</div>
+      </div>
+    </div>
+
+    <h5>Layout 3</h5>
+    <div class="box-area mb-4">
+      <div class="row">
+        <div class="col-md-4 col-12 blue-box">Column 1</div>
+        <div class="col-md-8 col-12 blue-box">Column 2</div>
+      </div>
+    </div>
+
+    <div class="box-area mb-5">
+      <div class="row">
+        <div class="col-12 dark-box">Column 1</div>
+        <div class="col-12 dark-box">Column 2</div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container-fluid card-section py-4">
+    <div class="container">
+      <h2 class="fw-bold text-primary mb-3">Bootstrap Grid Responsive</h2>
+
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 mb-3">
+          <div class="my-card">
+            <h2>01</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit reiciendis maxime possimus assumenda quidem.</p>
+            <button class="btn btn-info btn-sm">Read more...</button>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 mb-3">
+          <div class="my-card">
+            <h2>02</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quis facilis porro illo molestiae.</p>
+            <button class="btn btn-info btn-sm">Read more...</button>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-4 mb-3">
+          <div class="my-card">
+            <h2>03</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet provident labore eos aperiam.</p>
+            <button class="btn btn-info btn-sm">Read more...</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
