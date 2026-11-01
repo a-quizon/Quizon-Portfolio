@@ -2,6 +2,8 @@
 
 Employment-ready personal portfolio for **Andrey C. Quizon**, Frontend Developer (Pampanga, Philippines).
 
+**Live:** [https://andrey-quizon-portfolio.vercel.app](https://andrey-quizon-portfolio.vercel.app)
+
 **Stack:** Vite · React · TypeScript · Tailwind CSS  
 **Features:** Dark / light mode, selected projects (Smart Queue, Dina's Mami House), resume download
 
